@@ -1,0 +1,46 @@
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.manifest
+*.tlog
+*.lastbuildstate
+
+# Ignorar diretórios de build
+[Bb]uild/
+[Oo]ut/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+ipch/
+*.VC.db
+*.VC.opendb
+
+# Ignorar configurações do Visual Studio
+.vscode/
+*.sln
+*.suo
+*.user
+*.ncb
+*.cache
+*.VC.db
+*.VC.opendb
+*.filters
+
+# Ignorar arquivos do Visual Studio
+.vs/
+ConsoleApplication1/ConsoleApplication1.vcxproj
+ConsoleApplication1/ConsoleApplication1.vcxproj.filters
+
+# Ignorar logs e temporários
+*.log
+*.tmp
+*.swp
+*.bak
+*.sdf
